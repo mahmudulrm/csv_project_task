@@ -1,0 +1,4 @@
+setTimeout(function(){
+				var noOfRows = (($('table tr').length)-1);
+				$('#num_results span').text(noOfRows);
+			}, 300);
